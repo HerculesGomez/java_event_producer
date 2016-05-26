@@ -1,0 +1,11 @@
+{"namespace": "headshot.avro",
+ "type": "record",
+ "name": "Headshot",
+ "fields": [
+ 	 {"name": "user_id", "type": "int"},
+     {"name": "name", "type": "string"},
+     {"name": "game_id", "type": "int"},
+     {"name": "map_id", "type": "int"},
+     {"name": "timestamp", "type": "long"}
+ ]
+}
