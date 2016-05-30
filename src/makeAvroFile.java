@@ -49,7 +49,7 @@ public class makeAvroFile {
 		// Reuse user object by passing it to next(). This saves us from
 		// allocating and garbage collecting many objects for files with
 		// many items.
-			headshot = dataFileReader.next(headshot);
+		headshot = dataFileReader.next(headshot);
 		System.out.println(headshot);
 		}
 
